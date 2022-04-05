@@ -58,3 +58,55 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Integración de Bootstrap stable
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.6'
+gem 'bootstrap-datepicker-rails'
+
+# Select 2
+gem 'select2-rails'
+
+# Datatable
+gem 'jszip-rails'
+gem 'jquery-datatables'
+gem 'ajax-datatables-rails'
+gem 'kaminari'
+
+
+# font-awesome
+gem 'font-awesome-rails'
+
+# Mensajes de error
+gem 'toastr-rails'
+
+
+gem 'cocoon'
+gem 'barby'
+
+# Seguridad
+# https://github.com/RolifyCommunity/rolify/wiki/Devise---CanCanCan---rolify-Tutorial
+gem 'devise'
+gem 'cancancan'
+gem 'rolify'
+
+
+# ReCaptcha
+gem 'dotenv-rails', require: 'dotenv/rails-now'
+gem 'recaptcha', require: 'recaptcha/rails'
+
+
+gem 'seed_dump'
+gem 'chronic'
+gem 'postgres-copy'
+gem 'chart-js-rails'
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
+gem 'groupdate'
+gem 'faker'
+gem 'aws-sdk-s3', require: false  # Para  aws S3
+gem 'rqrcode', '~> 2.0'
+gem 'leaflet-rails'
+
+# Texto enriquecido
+gem 'trix-rails', require:'trix'

@@ -1,4 +1,5 @@
 class WelcomeController < ApplicationController
-  def index
-  end
+	def index
+		@notices = Notice.order('fecha desc').first(7)
+	end
 end
