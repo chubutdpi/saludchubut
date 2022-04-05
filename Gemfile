@@ -46,6 +46,7 @@ group :development do
   gem 'capistrano-rails', '~> 1.4'
   gem 'capistrano-passenger', '~> 0.2.0'
   gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
+  gem 'wkhtmltopdf-binary'
 end
 
 group :test do
@@ -94,14 +95,12 @@ gem 'rolify'
 # ReCaptcha
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 gem 'recaptcha', require: 'recaptcha/rails'
-
-
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary', group: :development
 gem 'seed_dump'
 gem 'chronic'
 gem 'postgres-copy'
 gem 'chart-js-rails'
-gem 'wicked_pdf'
-gem 'wkhtmltopdf-binary-aml', git: 'https://github.com/insphire/wkhtmltopdf-binary-aml'
 gem 'groupdate'
 gem 'faker'
 gem 'aws-sdk-s3', require: false  # Para  aws S3
