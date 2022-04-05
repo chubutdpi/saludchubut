@@ -110,7 +110,3 @@ gem 'leaflet-rails'
 
 # Texto enriquecido
 gem 'trix-rails', require:'trix'
-
-group :production do
-  gem 'rails_12factor'
-end
