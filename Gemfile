@@ -101,7 +101,7 @@ gem 'chronic'
 gem 'postgres-copy'
 gem 'chart-js-rails'
 gem 'wicked_pdf'
-gem 'wkhtmltopdf-binary'
+gem 'wkhtmltopdf-binary-aml', git: 'https://github.com/insphire/wkhtmltopdf-binary-aml'
 gem 'groupdate'
 gem 'faker'
 gem 'aws-sdk-s3', require: false  # Para  aws S3
