@@ -13,4 +13,37 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require jquery3
+//= require popper
+//= require bootstrap
+//= require bootstrap-datepicker
+//= require datatables
+//= require jszip
+//= require select2
+//= require toastr
+//= require cocoon
+//= require Chart.min
+//= require leaflet
+//= require trix
 //= require_tree .
+
+
+toastr.options = {
+    "closeButton": true,
+    "debug": false,
+    "newestOnTop": false,
+    "progressBar": false,
+    "positionClass": "toast-top-right",
+    "preventDuplicates": true,
+    "preventOpenDuplicates": true,
+    "onclick": null,
+    "showDuration": "1500",
+    "hideDuration": "1500",
+    "timeOut": "15000",
+    "extendedTimeOut": "0",
+    "tapToDismiss": true,
+    "showEasing": "swing",
+    "hideEasing": "linear",
+    "showMethod": "fadeIn",
+    "hideMethod": "fadeOut"
+  }
