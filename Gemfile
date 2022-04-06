@@ -56,6 +56,10 @@ group :test do
   gem 'chromedriver-helper'
 end
 
+# group :production do
+#   gem 'wkhtmltopdf-binary-aml', git: 'https://github.com/insphire/wkhtmltopdf-binary-aml'
+# end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
@@ -94,14 +98,12 @@ gem 'rolify'
 # ReCaptcha
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 gem 'recaptcha', require: 'recaptcha/rails'
-
-
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
 gem 'seed_dump'
 gem 'chronic'
 gem 'postgres-copy'
 gem 'chart-js-rails'
-gem 'wicked_pdf'
-gem 'wkhtmltopdf-binary'
 gem 'groupdate'
 gem 'faker'
 gem 'aws-sdk-s3', require: false  # Para  aws S3

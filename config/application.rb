@@ -22,10 +22,6 @@ module Altascovid
     config.serve_static_assets = true
 
     config.generators.helper = false
-
-
-    
-
   end
 end
 
