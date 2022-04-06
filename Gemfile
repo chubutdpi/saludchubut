@@ -46,7 +46,6 @@ group :development do
   gem 'capistrano-rails', '~> 1.4'
   gem 'capistrano-passenger', '~> 0.2.0'
   gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
-  gem 'wkhtmltopdf-binary'
 end
 
 group :test do
@@ -56,6 +55,10 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
 end
+
+# group :production do
+#   gem 'wkhtmltopdf-binary-aml', git: 'https://github.com/insphire/wkhtmltopdf-binary-aml'
+# end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
@@ -96,7 +99,7 @@ gem 'rolify'
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 gem 'recaptcha', require: 'recaptcha/rails'
 gem 'wicked_pdf'
-gem 'wkhtmltopdf-binary', group: :development
+gem 'wkhtmltopdf-binary'
 gem 'seed_dump'
 gem 'chronic'
 gem 'postgres-copy'
