@@ -13,7 +13,7 @@ class CovidSituation < ApplicationRecord
 
 	validates_uniqueness_of :locality, scope: :part_date
 
-	validate :check_totales
+	#validate :check_totales
 
 	def acumulated_new(fecha=part_date)
 		return CovidSituation.where(locality: locality).where('part_date <=?', fecha).sum(:new_cases)
